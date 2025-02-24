@@ -87,7 +87,16 @@ def calculate(numbers : list):
     print('}')
 
 
-list = [0,1,2,3,4,5,6,7,8]
+list = []
+
+for i in range(0,9):
+    print("TYPE 12345 TO EXIT")
+    number = int(input("Type a number: "))
+    if number == 12345:
+        break
+    else:
+        list.append(number)
+
 calculate(list)
     
 
